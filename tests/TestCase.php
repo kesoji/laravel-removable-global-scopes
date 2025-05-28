@@ -3,17 +3,9 @@
 namespace Kesoji\RemovableGlobalScopes\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Kesoji\RemovableGlobalScopes\RemovableGlobalScopesServiceProvider;
 
 abstract class TestCase extends Orchestra
 {
-    protected function getPackageProviders($app)
-    {
-        return [
-            RemovableGlobalScopesServiceProvider::class,
-        ];
-    }
-
     protected function setUp(): void
     {
         parent::setUp();

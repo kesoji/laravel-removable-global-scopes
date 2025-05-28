@@ -34,11 +34,7 @@
         }
     },
     "extra": {
-        "laravel": {
-            "providers": [
-                "Kesoji\\RemovableGlobalScopes\\RemovableGlobalScopesServiceProvider"
-            ]
-        }
+        "laravel": {}
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
